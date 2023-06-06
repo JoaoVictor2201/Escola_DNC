@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Baloo Bhaina 2", cursive;
+    font-size: 16px;
+}
+  
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(136.31deg, #0a0f07 14.16%, #1f102b 53.39%, #23193e 82.63%);
+}
+
+#container {
+    padding: 40px 60px 40px 60px;
+}
+
+nav {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+} 
+
+main {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+main h1 {
+    color: #9F7FDBCC;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 5rem;
+    text-align: center;
+}
+
+form {
+width: 50%;
+}
+
+input {
+    padding: 1rem;
+    background: #9F7FDB;
+    border-radius: 10px;
+    color: #fff;
+    border: 0;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input.name {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+input.email {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+form button {
+    width: 240px;
+    padding: 2rem;
+    border: 0;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.btn__primary {
+    background: #7834F3;
+}
+
+.btn__secondary {
+    background: #9F7FDB;
+}

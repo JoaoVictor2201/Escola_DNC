@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/** ------------------ VARIAVEIS ------------------ */
+:root {
+    --default-text-size: 16px;
+    --default-text-color: #070F18;
+    --default-text-lineHeight: 32px
+}
+
+/** ------------------ RESET ------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--default-text-size);
+}
+
+/** ------------------ ESTILOS GERAIS ------------------ */
+body {
+    margin: 0 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column; /* Determina que todos os filhos DIRETOS de container sejam dispostos em forma de coluna */
+    grid-auto-columns: 1fr;
+}
+
+.noGrid {
+    display: block;
+}
+
+h1.title {
+    color: #000000;
+    font-weight: bold;
+    line-height: 54px;
+    font-size: 36px;
+}
+
+h2.subtitle {
+    color: #F75C4E;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/** ------------------ HEADER ------------------ */
+
+#siteName {
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: underline;
+    color: var(--default-text-color);
+    margin: 40px 0;
+}
+
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    color: var(--default-text-color);
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/** ------------------ BANNER ------------------ */
+
+.cta h1 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+}
+
+.cta p {
+    line-height: var(--default-text-lineHeight);
+}
+
+.cta #btnCta {
+    display: inline-block;
+    background: #1F7CFF;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 24px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.bannerImg {
+    margin-left: 42px;
+    text-align: right;
+}
+
+.bannerImg img {
+    width: 100%;
+}
+
+/** ------------------ LOGOS ------------------ */
+#clients {
+    padding: 50px 0;
+}
+
+.clientsText {
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--default-text-color);
+}
+
+.logoClient {
+    text-align: center;
+}
+
+/** ------------------ SERVICES ------------------ */
+.container.services {
+    padding: 80px 0;
+}
+
+.container.services h1,
+.container.services h2 {
+    text-align: center;
+}
+
+.container.services h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--default-text-color);
+}
+
+.textServices {
+    line-height: var(--default-text-lineHeight);
+    padding: 20px 0 30px;
+}
+
+.container.services .textCenter p {
+    line-height: var(--default-text-lineHeight);
+    color: var(--default-text-color);
+}
+
+.container.services .textCenter img {
+    margin-bottom: 30px;
+}
+
+/** ------------------ CONTACT ------------------ */
+.container.contact img {
+    width: 100%;
+}
+
+.container.contact .form {
+    margin-left: 75px;
+}
+
+.container.contact .form p {
+    color: var(--default-text-color);
+    line-height: var(--default-text-lineHeight);
+    margin-top: 20px;
+}
