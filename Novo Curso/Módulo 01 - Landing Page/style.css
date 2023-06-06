@@ -14,7 +14,7 @@ body {
 /* BACKGROUND */
 
 #banner {
-  background-image: url('./images/banner.png');
+  background-image: url('./assets/images/banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,4 +62,12 @@ body {
 .itens {
   display: flex;
   justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
 }
