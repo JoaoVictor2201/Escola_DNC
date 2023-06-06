@@ -9,12 +9,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-:root {
-  --blue: #247BA0;
-  --white: #FFFFFF;
-  --black: #000000;
-}
-
 .container {
   padding: 0 175px;
 }
@@ -22,6 +16,12 @@
 .section-title {
   font-size: 32px;
   font-weight: 700;
+}
+
+:root {
+  --blue: #247BA0;
+  --white: #FFFFFF;
+  --black: #000000;
 }
 
 /* BANNER */
